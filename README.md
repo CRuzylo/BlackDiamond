@@ -5,7 +5,7 @@
 Based off the SafeMoon fork, UltraSafe, Contract.
 Removed key vulnerability in SafeMoon contract : 
 
- //Locks the contract for owner for the amount of time provided
+    //Locks the contract for owner for the amount of time provided
     function lock(uint256 time) public virtual onlyOwner {
         _previousOwner = _owner;
         _owner = address(0);
